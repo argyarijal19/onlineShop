@@ -1,0 +1,41 @@
+
+@keyframes slidy {
+    0% { left: 0%; }
+    25% { left: 0%; }
+    50% { left: -50%; }
+    75% { left: -100%; }
+    0% { left: -0%; }
+    25% { right: 0%; }
+    50% { right: 0%; }
+    75% { right: 0%; }
+    100% { right: 0%; }
+    /* 70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; } */
+    }
+    
+     .gambar1 img{
+         padding-left: 30px;
+         width: 200%;
+         height: auto;
+     }
+     .gambar2 img{
+        padding-left: 30px;
+    }
+    .gambar3 img{
+        padding-left: 30px;
+    }
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 30%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 200%;
+      margin: 1px;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 10s slidy infinite; 
+    }
+    
